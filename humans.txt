@@ -1,0 +1,7 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mateusz 'meal' Kozak -- @mkozak
+    Wojtek 'suda' Siudzinski -- @suda
