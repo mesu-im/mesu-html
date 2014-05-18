@@ -13,7 +13,7 @@
   <meta property="og:url" content="http://mesu.im">
   <meta property="og:description" content="Custom XMPP/Jabber server with Google Talk gateway and a nice, web history browser.">
 
-  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700"> -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
@@ -35,16 +35,23 @@
           Hangouts broke Google Talk.<br>
           We're here to fix it.
         </p>
-        <form class="inputs inputs--inline inputs--intro">
+        <form action="http://appsome.us2.list-manage.com/subscribe/post?u=61518d370e15d23f88b79653f&id=84b81e1221"
+          method="post" class="inputs inputs--inline inputs--intro">
           <div class="inputs__row">
             <div class="inputs__row-input">
-              <input type="email" class="inputs__input" placeholder="Enter your email&#8230;">
+              <input type="email" name="EMAIL" class="inputs__input" placeholder="Enter your email&#8230;">
             </div>
             <div class="inputs__row-input">
               <button type="submit" class="inputs__submit">Signup</button>
             </div>
           </div>
         </form>
+        <p id="sent" class="intro__message">
+          To complete the subscription process, please click the link in the email we've just sent you.
+        </p>
+        <p id="confirmed" class="intro__message">
+          Awesome! We'll let you know when your account will be ready but it may take even <strong>couple of days</strong>.
+        </p>
       </div>
     </main>
 
