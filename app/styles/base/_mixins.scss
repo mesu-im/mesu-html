@@ -1,0 +1,33 @@
+// --- mixins ------------------------------------------------------------------
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin placeholder($color, $weight: 300) {
+  &:-moz-placeholder {
+    color: $color;
+    font-weight: $weight;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    font-weight: $weight;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    font-weight: $weight;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+    font-weight: $weight;
+  }
+}

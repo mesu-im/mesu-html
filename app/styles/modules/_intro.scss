@@ -1,0 +1,17 @@
+// --- intro -------------------------------------------------------------------
+
+.intro {
+  background: image-url('bg-intro.png') top right no-repeat;
+}
+
+.intro__headline {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  font-size: 5.4rem;
+  text-transform: uppercase;
+}
+
+.intro__text {
+  margin: 4rem 0 5rem;
+  font-size: 2.4rem;
+}

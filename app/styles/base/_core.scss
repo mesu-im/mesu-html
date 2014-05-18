@@ -1,0 +1,15 @@
+// --- core --------------------------------------------------------------------
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: $color-salmon image-url('bg-body.jpg') fixed no-repeat;
+  background-size: cover;
+  color: $color-white;
+  font-family: $base-font-family;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
