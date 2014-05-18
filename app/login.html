@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Login | mesu.im - multi network messaging server</title>
+  <meta name="description" content="Custom XMPP/Jabber server with Google Talk gateway and a nice, web history browser.">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <meta property="og:title" content="mesu.im - multi network messaging server">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://mesu.im/images/logo-square.png">
+  <meta property="og:url" content="http://mesu.im">
+  <meta property="og:description" content="Custom XMPP/Jabber server with Google Talk gateway and a nice, web history browser.">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body class="p-login">
+
+  <div class="l-container l-container--login">
+    <header class="header">
+      <a href="/" class="header__logo header__logo--middle">mesu.im</a>
+    </header>
+
+    <main class="l-main">
+      <div class="login">
+        <h1 class="login__headline">Sign in</h1>
+        <form class="inputs inputs--login">
+          <div class="inputs__row">
+            <div class="inputs__row-input">
+              <input class="inputs__input" type="text" placeholder="Username">
+            </div>
+          </div>
+          <div class="inputs__row">
+            <div class="inputs__row-input">
+              <input class="inputs__input" type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="inputs__row inputs__row--cta">
+            <div class="inputs__row-link">
+              <a href="#" class="inputs__link">I forgot my password</a>
+            </div>
+            <div class="inputs__row-input">
+              <button type="submit" class="inputs__submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-9442767-27','mesu.im');ga('send','pageview');
+  </script>
+
+  <!-- build:js({app,.tmp}) scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

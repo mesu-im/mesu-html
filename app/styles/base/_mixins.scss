@@ -31,3 +31,9 @@
     font-weight: $weight;
   }
 }
+
+%vertical-align {
+  @include translateY(-50%);
+  position: relative;
+  top: 50%;
+}

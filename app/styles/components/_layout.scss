@@ -7,9 +7,13 @@
   padding: 0 1rem;
 }
 
+.l-main {}
+
 .l-container--signup {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
-.l-main {}
+.l-container--login {
+  @extend %vertical-align;
+}

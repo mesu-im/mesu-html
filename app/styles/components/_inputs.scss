@@ -2,7 +2,9 @@
 
 .inputs {}
 
-.inputs__row {}
+.inputs__row {
+  @include clearfix();
+}
 
 .inputs__row-input {}
 
@@ -15,7 +17,7 @@
 }
 
 .inputs__input {
-  @include placeholder($color-white);
+  @include placeholder(rgba($color-white, .75));
   width: 30rem;
   padding: 1.3rem 3.5rem;
   font-size: 1.8rem;
@@ -53,7 +55,48 @@
 
   .inputs__submit {
     width: 7.5rem;
-    background: image-url('bg-submit-intro.png') 50% no-repeat;
+    background: image-url('bg-submit.png') 50% no-repeat;
+    text-indent: -999em;
+  }
+}
+
+// --- inputs: login -----------------------------------------------------------
+
+.inputs--login {
+  width: 37rem;
+  margin: 0 auto;
+
+  .inputs__row {
+    margin-bottom: 1rem;
+  }
+
+  .inputs__input {
+    width: 100%;
+  }
+
+  .inputs__link {
+    color: $color-white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .inputs__row--cta {
+    .inputs__row-input {
+      float: right;
+    }
+
+    .inputs__row-link {
+      float: left;
+      line-height: 5rem;
+    }
+  }
+
+  .inputs__submit {
+    width: 7.5rem;
+    background: image-url('bg-submit.png') 50% no-repeat;
     text-indent: -999em;
   }
 }
